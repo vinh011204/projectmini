@@ -1,0 +1,85 @@
+
+.inria-serif-light {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .inria-serif-regular {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inria-serif-bold {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .inria-serif-light-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .inria-serif-regular-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .inria-serif-bold-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+:root{
+    --color-one:#0C337C;
+    --color-two:#EFB500;
+    --color-tex:#B5BBC2;
+    --font-famYli:"Inria Serif", serif;
+
+}
+*{
+  box-sizing:border-box ;
+}
+body{
+    font-family: var(--font-famYli--)
+    color var(--color-tex)
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+a{
+  text-decoration: none;
+}
+@media(max-width:1200px){
+  .container{
+    max-width: 960px;
+  }
+}
+@media(max-width:992px){
+  .container{
+    max-width: 720px;
+  }
+}
+@media(max-width:768px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media(max-width:576px){
+  .container{
+    max-width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+}
